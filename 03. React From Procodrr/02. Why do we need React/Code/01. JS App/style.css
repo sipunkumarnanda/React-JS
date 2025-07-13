@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 50%;
+    height: 50%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.arrow-div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.arrow-div button{
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+.arrow-div button:hover{
+    background-color: green;
+}
+.arrow-div button i{
+   font-size: 1rem;
+}
