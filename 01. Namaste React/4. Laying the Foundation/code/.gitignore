@@ -1,0 +1,9 @@
+
+# Dependencies
+node_modules/
+
+# Parcel build cache
+.parcel-cache/
+
+# Production build output
+dist/
