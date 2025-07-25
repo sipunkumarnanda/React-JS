@@ -1,0 +1,29 @@
+{
+  "version": 3,
+  "file": "script.js",
+  "names": [
+    "user",
+    "company",
+    "React",
+    "createElement",
+    "Fragment",
+    "className",
+    "id",
+    "key",
+    "h2",
+    "root",
+    "ReactDOM",
+    "createRoot",
+    "document",
+    "getElementById",
+    "render"
+  ],
+  "sources": [
+    "../script.js"
+  ],
+  "sourcesContent": [
+    "\r\n/* \r\nconst h1 = React.createElement(\"h1\", {\r\n    className : \"heading\",\r\n    id : \"heading\",\r\n    key : \"heading-1\"\r\n}, \"Hello React\")\r\n\r\nconsole.log(h1);\r\n\r\nlet customReactElem = {\r\n    $$typeof : Symbol.for('react.element'),\r\n    type: \"h1\",\r\n    key: \"heading-1\",\r\n    ref: null,\r\n    props: {\r\n        className: \"heading\",\r\n        id: \"heading\",\r\n        children: \"Hello React , created by OBJECT\"\r\n    },\r\n    _owner: null,\r\n    _store: {}\r\n}\r\n    */\r\n\r\n\r\nconst user = \"Sipun Kumar Nanda\"\r\nconst company = (\r\n    <>\r\n    <p className=\"company\" id=\"company\" key=\"g32gh3\">owned by Nanda Vencture</p>\r\n    </>\r\n)\r\nconst h2 = <h2>Hello {user} {company}</h2>\r\n\r\n\r\nconst root = ReactDOM.createRoot(document.getElementById(\"root\"))\r\nroot.render(h2)"
+  ],
+  "mappings": ";;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAGA,IAAMA,IAAI,GAAG,mBAAmB;AAChC,IAAMC,OAAO,gBACTC,KAAA,CAAAC,aAAA,CAAAD,KAAA,CAAAE,QAAA,qBACAF,KAAA,CAAAC,aAAA;EAAGE,SAAS,EAAC,SAAS;EAACC,EAAE,EAAC,SAAS;EAACC,GAAG,EAAC;AAAQ,GAAC,yBAA0B,CACzE,CACL;AACD,IAAMC,EAAE,gBAAGN,KAAA,CAAAC,aAAA,aAAI,QAAM,EAACH,IAAI,EAAC,GAAC,EAACC,OAAY,CAAC;AAG1C,IAAMQ,IAAI,GAAGC,QAAQ,CAACC,UAAU,CAACC,QAAQ,CAACC,cAAc,CAAC,MAAM,CAAC,CAAC;AACjEJ,IAAI,CAACK,MAAM,CAACN,EAAE,CAAC",
+  "ignoreList": []
+}
