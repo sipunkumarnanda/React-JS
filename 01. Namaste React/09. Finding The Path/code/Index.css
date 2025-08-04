@@ -1,0 +1,148 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color:  black;
+    color: white;
+    font-family: 'Helvetica';
+}
+
+.header{
+    width: 100%;
+    /* background-color: red; */
+    border: 1px solid gray;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 2rem;
+    margin-top: 10px;
+}
+.header .nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .nav-items ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 1rem;
+}
+
+.header .nav-items ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+ .nav-items a{
+    text-decoration: none;
+}
+
+.nav-items button{
+    padding: 0.5rem;
+    background-color: rgb(12, 138, 85);
+    border-radius: 5px;
+    color: rgb(236, 250, 250);
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.nav-items .logout{
+    background-color: red;
+}
+
+.nav-items button:hover{
+    cursor: pointer;
+}
+
+.logo{
+    width: 60px;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.card{
+    /* background-color: red; */
+    width: 18%;
+    height: 280px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 1rem;
+}
+.card .img{
+    width: 100%;
+    height: 60%;
+    margin-bottom: 1rem;
+}
+
+.card .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.search-container{
+    padding: 0.8rem;
+}
+
+.search-container h1{
+    padding: 1rem;
+}
+.resturant-list{
+    width: 100%;
+    height: 100%;
+    padding: 0rem 1.5rem;
+    /* background-color: red; */
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    justify-content: start;
+    margin-top: 1rem;
+}
+
+.shimmer-card{
+    width: 18%;
+    height: 280px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(142, 137, 137);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 1rem;
+}
+
+
+.shimmer-card .img{
+    width: 100%;
+    height: 60%;
+    margin-bottom: 1rem;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.shimmer-card .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.shimmer-card .empty{
+    width: 100%;
+    height: 1rem;
+    padding: 8px;
+    background-color: rgb(186, 186, 186);
+    margin-top: 0.8rem;
+    border-radius: 5px;
+}
