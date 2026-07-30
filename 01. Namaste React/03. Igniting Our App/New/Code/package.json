@@ -10,11 +10,16 @@
   "license": "ISC",
   "author": "sipun",
   "type": "commonjs",
-  "main": "App.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel index.html"
   },
   "devDependencies": {
     "parcel": "^2.16.4"
-  }
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "browsersList" : ["last 2 versions"]
 }
